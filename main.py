@@ -18,8 +18,3 @@ def get_user(user_id: int):
         "name": "John"
     }
 
-@app.get("/name")
-def get_name():
-    return {
-        'Ankita'
-}
